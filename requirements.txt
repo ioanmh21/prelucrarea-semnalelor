@@ -1,0 +1,6 @@
+numpy
+matplotlib
+scipy
+sounddevice
+
+# Pentru sounddevice pe Ubuntu/Debian: sudo apt install libportaudio2

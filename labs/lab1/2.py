@@ -37,13 +37,13 @@ axs[0].plot(I1, X, color='red')
 axs[0].grid(True)
 
 axs[1].plot(I2, Y, color='green')
+axs[1].set_xlim(0, 0.01)
 axs[1].grid(True)
 
 axs[2].plot(I3, Z, color='blue')
 axs[2].grid(True)
 
 axs[3].plot(I3, A, color='red')
-axs[1].set_xlim(0, 0.01)
 axs[3].grid(True)
 
 plt.tight_layout()
