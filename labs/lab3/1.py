@@ -18,8 +18,8 @@ F = np.exp(-2 * np.pi * 1j * i1 * i2 / N)
 fig, axs = plt.subplots(N, figsize=(8, 12), sharex=True)
 
 for i in range(N):
-    axs[i].stem(F[i].real, linefmt='r-', markerfmt='ro', basefmt='k-')
-    axs[i].stem(F[i].imag, linefmt='b--', markerfmt='bo', basefmt='k-')
+    axs[i].plot(F[i].real, color = 'blue')
+    axs[i].plot(F[i].imag, color = 'red')
     axs[i].set_ylabel(f"Linia {i}")
     axs[i].set_ylim(-1.2, 1.2)
     axs[i].grid(True)
