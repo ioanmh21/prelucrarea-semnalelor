@@ -1,0 +1,7 @@
+(a) 1 / 3600 Hz
+
+(b) 18288 esantione, 18287 ore intre primul si ultimul
+
+(c) frecventa maxima prezenta 1 / (2 * 3600) Hz = 1 / 7200 Hz
+
+(h) daca ai data unui singur esantion, problema se rezuma la a fixa intr-o insiruire de pattern uri acel eveniment si a face traceback pana la primul esantion.
