@@ -1,0 +1,11 @@
+(4) 2 * f_max = 2 * max(40Hz, 200Hz) = 400 Hz
+    f_s > 2 * f_max = 400 Hz
+    f_s > 400 Hz
+
+(5) da, se pot diferentia, dar nu neaparat usor. Calitatea audioului ingreuneaza diferentierea vizuala.
+
+(7) P_semnal / P_0 = 10^9
+    SNR = 10^8
+
+    P_zgomot = 10 * log_10(10^(-8) * 10^9) = 10 dB
+    P_zgomot = 10dB
